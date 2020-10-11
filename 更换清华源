@@ -1,0 +1,9 @@
+1.备份
+cp /etc/apt/sources.list /etc/apt/sources.list.bak
+
+2.修改源
+gedit /etc/apt/sources.list
+复制tuna内容
+
+3.让源生效
+sudo apt-get update
